@@ -98,7 +98,8 @@ transform: scale(1.4);
   left: 0%;
   height: 100%;
   width: 100%;
-  background: url("/img/themes2.jpg");
+  background: url("/img/rsz_themes2.jpg");
+  background-size: 100% 100%;
 }
 
 #how_to_participate_page
@@ -109,6 +110,7 @@ transform: scale(1.4);
   height: 100%;
   width: 100%;
   background-image: url("/img/main_image7.jpg");
+  background-size: 100% 100%; 
 
 }
 
