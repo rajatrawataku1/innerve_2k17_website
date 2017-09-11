@@ -1,0 +1,141 @@
+::-webkit-scrollbar {
+        display: none;
+    }
+
+::-moz-scrollbar {
+        display: none;
+    }
+
+@font-face {
+ font-family:pacifico;
+ src: url("/Pacifico-Regular.ttf");
+}
+
+@font-face {
+font-family:reboot;
+ src: url("/RebootCrush.ttf");
+}
+
+@font-face {
+font-family:coalition;
+ src: url("/Coalition_v2..ttf");
+}
+
+@font-face {
+font-family:neuro;
+ src: url("/neuropol.ttf");
+}
+
+@font-face {
+ font-family:nunu_hain_tera;
+ src: url("/nunu.ttf");
+}
+
+body{
+  font-family: nunu_hain_tera;
+}
+
+.color_base
+{
+  background-color: #303030;
+}
+
+#bottom_bar
+{
+  position: absolute;
+  width: 100%;
+  height: 6%;
+  bottom: 0%;
+  left: 0%;
+  opacity: 0.5;
+  background-color: ##283593;
+}
+
+#home_page{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: url("/img/main_image4.jpg");
+  background-size: 100% 100%;
+}
+
+#zoom_me{
+
+-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(1.4);
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(1.4);
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(1.4);
+transition: all 200ms ease-in;
+transform: scale(1.4);
+
+}
+
+#zoom_me :hover{
+
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+
+
+.basic_font{
+  color: white;
+}
+
+#themes_page
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background: url("/img/themes2.jpg");
+}
+
+#how_to_participate_page
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: url("/img/main_image7.jpg");
+
+}
+
+#all_other_things
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+
+
+#sponsors_contact
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  background: url("/img/endin.jpg");
+  background-size: 100% 100%;
+}
+
+.card1{
+  color: #09446E;
+}
